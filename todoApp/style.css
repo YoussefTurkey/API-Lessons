@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Default Light */
+body {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s ease;
+}
+
+body.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+/* جرب تعدل كمان ألوان الجدول */
+body.dark table {
+  background-color: #333;
+}
+
+body.dark .table-dark {
+  background-color: #444;
+}
+
+body.dark .form-control {
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
+body.dark .form-control::placeholder {
+  color: #aaa;
+}
